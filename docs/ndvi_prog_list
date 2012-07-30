@@ -1,0 +1,49 @@
+1. smooth-calculate-metrics:
+
+1, smooth_calculate_metrics_tile_ver9.pro, filen,flg
+  
+  1.1, start_batch.pro
+
+  1.2, time_series_process_nps_oneyear_ver9,tmp,bname,threshold,snowcld,mid_interp,mid_smooth,mid_bname,vmetrics
+
+   1.2.1, interpol_noextension_1y_vector_ver9,tmp,tmp_bn,threshold,snowcld,tmp_interp,tmp_bq,tmp_bn,ratio,stnum_real,ednum_real,flg_metrics
+
+     1.2.1 cutoff_interp_ver10,mid_year_cb,mid_year_g,flg_metrics 
+       
+       1.2.1.1 interpol_line100b(tmpv,tmpx,tmpu)
+       1.2.1.2 filter_2odd, tmpnan, 40, tmpnan1
+
+   1.2.2. wls_smooth, tmp_interp,1,1,tmp_smooth
+
+   1.2.3. user_metrics_nps_by1yr, mid_smooth1, mid_interp1, mid_bq, mid_bname, metrics_cal_threshold,vmetrics 
+
+      1.2.3.1. ComputeMetrics_by1yr(NDVI, ndvi_raw, bq, bn, wl,bpy,CurrentBand,DaysPerBand)
+
+         1.2.3.1.1 GetForwardMA(ndvi, wl[0])
+         1.2.3.1.2 GetBackwardMA(ndvi, wl[1])
+
+         1.2.3.1.3 GetCrossOver_percentage_extremeslope_ver15(Time, NDVI, Time, FMA, bq, bpy, /Down) 
+         1.2.3.1.4 GetSOS_ver18(Starts, NDVI,bq,Time, bpy, FMA)
+
+         1.2.3.1.5 GetEOS_ver18(Ends, NDVI, bq, Time,bpy,SOS,bma) 
+
+         1.2.3.1.6 GetMaxNDVI(NDVI_raw, Time, Start_End,bpy)
+         1.2.3.1.7 GetTotNDVI(NDVI, Time, Start_End,bpy,DaysperBand)
+         1.2.3.1.8 GetNDVItoDate(NDVI, Time, Start_End, bpy, DaysPerBand, CurrentBand)
+
+         1.2.3.1.9 GetSlope(Start_End, MaxND, bpy, DaysPerBand)
+         1.2.3.1.10 GetRange(Start_End, MaxND, bpy, DaysPerBand)
+
+  
+      1.2.3.2. findday(bn, onp)
+
+2. stack one year of data files into a file
+
+  2, oneyear_data_layer_subset_good_ver9, flist_ndvi, flist_bq, ul_lon,ul_lat,lr_lon,lr_lat
+
+    2.1, start_batch
+    2.2, read_ndvi_ver9, fn_ndvi,fn_bq,ul,lr,rt_fid,rt_bq_fid
+
+      2.2.1, subset,layer_fid,ul,lr,wrkdir,subset_fid 
+ 
+  

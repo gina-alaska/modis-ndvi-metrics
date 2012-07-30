@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="10" version="2.0">
+<workbenchAdvisor/>
+<window height="882" width="1206" x="4" y="36">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="285"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="268" y="28"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.rsi.idldt.ui.edit" itemType="typeToolBarContribution" x="150" y="28"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="82" y="28"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="46" y="28"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="182" y="28"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.rsi.idldt.proeditor.ProEditor" itemType="typeToolBarContribution" x="38" y="28"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1341444098331" focus="true" label="Workspace - IDL">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor activePart="true" focus="true" id="com.rsi.idldt.proeditor.ProEditor" name="getsos_ver16.pro" partName="getsos_ver16.pro" path="/import/home/u1/uaf/jzhu/nps/cesu/modis_ndvi_ver16m1_3/ver16m1_3/getsos_ver16.pro" title="getsos_ver16.pro" tooltip="ver16m1_3/getsos_ver16.pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ver16m1_3/getsos_ver16.pro"/>
+<editorState selectionLength="0" selectionOffset="6365"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="geteos_ver16.pro" partName="geteos_ver16.pro" path="/import/home/u1/uaf/jzhu/nps/cesu/modis_ndvi_ver16m1_3/ver16m1_3/geteos_ver16.pro" title="geteos_ver16.pro" tooltip="ver16m1_3/geteos_ver16.pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ver16m1_3/geteos_ver16.pro"/>
+<editorState selectionLength="0" selectionOffset="5593"/>
+</editor>
+<editor id="com.rsi.idldt.proeditor.ProEditor" name="smooth_calculate_metrics_tile_ver9.pro" partName="smooth_calculate_metrics_tile_ver9.pro" path="/import/home/u1/uaf/jzhu/nps/cesu/modis_ndvi_ver16m1_3/ver16m1_3/smooth_calculate_metrics_tile_ver9.pro" title="smooth_calculate_metrics_tile_ver9.pro" tooltip="ver16m1_3/smooth_calculate_metrics_tile_ver9.pro" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ver16m1_3/smooth_calculate_metrics_tile_ver9.pro"/>
+<editorState selectionLength="0" selectionOffset="4337"/>
+</editor>
+</editors>
+<views>
+<view id="com.rsi.idldt.toolpalette.views.ToolPaletteView" partName="Tool Palette">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.debug.ui.VariableView" partName="Variables">
+<viewState/>
+</view>
+<view id="com.rsi.idldt.ui.views.CommandLineView" partName="Command Line">
+<viewState/>
+</view>
+<view id="com.rsi.idldt.toolpalette.views.ExistingVisView" partName="Visualizations">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.rsi.idldt.ui.views.ProfilerView" partName="Profiler"/>
+<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
+<viewState>
+<isTrackingSelection value="false"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="com.rsi.idldt.ui.views.CommandHistoryView" partName="Command History">
+<viewState columnWidth0="200" grp200="0" grp201="1" grp202="1" grp205="1" showTreeView="1" sortColumn="1" sortDirection="128"/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors (5 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+</views>
+<perspectives activePart="com.rsi.idldt.proeditor.ProEditor" activePerspective="com.rsi.idldt.ui.IDLPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.debug.internal.ui.DebugPerspectiveFactory" id="org.eclipse.debug.ui.DebugPerspective" label="Debug"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.File"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.ExpressionView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="com.rsi.idldt.ui.views.CommandLineView"/>
+<show_view_action id="com.rsi.idldt.ui.views.CommandHistoryView"/>
+<show_view_action id="com.rsi.idldt.ui.views.ProfilerView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="com.rsi.idldt.core.ui.newProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="com.rsi.idldt.ui.IDLPerspective"/>
+<perspective_action id="com.rsi.idldt.toolpalette.ui.VisualizePerspective"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="com.rsi.idldt.ui.views.ProfilerView"/>
+<view id="org.eclipse.debug.ui.DebugView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.debug.ui.BreakpointView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<fastViewBars/>
+<viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.625" ratioLeft="405" ratioRight="243" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.rsi.idldt.ui.views.ProfilerView" label="Profiler"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1412b61" ratio="0.76397514" ratioLeft="123" ratioRight="38" relationship="4" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
+<folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">
+<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.45" ratioLeft="216" ratioRight="264" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="505" ratioRight="505" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.BreakpointView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.rsi.idldt.internal.ui.IDLPerspectiveFactory" id="com.rsi.idldt.ui.IDLPerspective" label="IDL"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.File"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="com.rsi.idldt.ui.views.CommandLineView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.rsi.idldt.ui.views.CommandHistoryView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.rsi.idldt.ui.views.ProfilerView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<new_wizard_action id="com.rsi.idldt.core.ui.newUntitledProWizard"/>
+<new_wizard_action id="com.rsi.idldt.core.ui.newProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.rsi.idldt.toolpalette.ui.VisualizePerspective"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
+<fastViewBars/>
+<viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.698908" ratioLeft="448" ratioRight="193" relationship="4" relative="left">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@125d92c" ratio="0.7668394" ratioLeft="148" ratioRight="45" relationship="4" relative="bottom">
+<folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">
+<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom_right" ratio="0.65940595" ratioLeft="666" ratioRight="344" relationship="2" relative="bottom">
+<folder activePageID="com.rsi.idldt.ui.views.CommandHistoryView" appearance="2" expanded="2">
+<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.335865" ratioLeft="398" ratioRight="787" relationship="2" relative="left"/>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.rsi.idldt.toolpalette.internal.ui.VisualizePerspectiveFactory" id="com.rsi.idldt.toolpalette.ui.VisualizePerspective" label="Visualize"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.CmdLine"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.File"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Run"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Wizard"/>
+<alwaysOnActionSet id="com.rsi.idldt.ui.actionSets.Help"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<show_view_action id="org.eclipse.debug.ui.BreakpointView"/>
+<show_view_action id="org.eclipse.debug.ui.DebugView"/>
+<show_view_action id="com.rsi.idldt.ui.views.CommandLineView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="com.rsi.idldt.ui.views.CommandHistoryView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.rsi.idldt.ui.views.ProfilerView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.debug.ui.VariableView"/>
+<show_view_action id="com.rsi.idldt.toolpalette.views.ToolPaletteView"/>
+<show_view_action id="com.rsi.idldt.toolpalette.views.ExistingVisView"/>
+<new_wizard_action id="com.rsi.idldt.core.ui.newUntitledProWizard"/>
+<new_wizard_action id="com.rsi.idldt.core.ui.newProjectWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="com.rsi.idldt.ui.IDLPerspective"/>
+<view id="com.rsi.idldt.toolpalette.views.ToolPaletteView"/>
+<view id="org.eclipse.debug.ui.VariableView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.rsi.idldt.ui.views.CommandHistoryView"/>
+<view id="com.rsi.idldt.toolpalette.views.ExistingVisView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="com.rsi.idldt.ui.views.CommandLineView"/>
+<fastViewBars/>
+<viewLayoutRec id="com.rsi.idldt.ui.views.CommandLineView" showTitle="true" standalone="true"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="com.rsi.idldt.toolpalette.views.ToolPaletteView" appearance="2" expanded="2">&#x0A;<page content="com.rsi.idldt.toolpalette.views.ToolPaletteView" label="Tool Palette"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1a0eec3" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="leftEditor2" ratio="0.09207921" ratioLeft="93" ratioRight="917" relationship="2" relative="left">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.44929796" ratioLeft="288" ratioRight="353" relationship="4" relative="leftEditor2">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="belowVariables" ratio="0.5184136" ratioLeft="183" ratioRight="170" relationship="4" relative="bottom">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.rsi.idldt.ui.views.CommandHistoryView" label="Command History"/>
+<page content="*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b87d31" ratio="0.7647059" ratioLeft="130" ratioRight="40" relationship="4" relative="belowVariables">&#x0A;<folder activePageID="com.rsi.idldt.ui.views.CommandLineView" appearance="3" expanded="2">&#x0A;<page content="com.rsi.idldt.ui.views.CommandLineView" label="Command Line"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@cdd54e" ratio="0.6" ratioLeft="558" ratioRight="372" relationship="2" relative="bottom">&#x0A;<folder activePageID="com.rsi.idldt.toolpalette.views.ExistingVisView" appearance="2" expanded="2">&#x0A;<page content="com.rsi.idldt.toolpalette.views.ExistingVisView" label="Visualizations"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.40095237" ratioLeft="421" ratioRight="629" relationship="2" relative="leftEditor2"/>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/ver16m1_3/geteos_ver16.pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/ver16m1_3/smooth_calculate_metrics_tile_ver9.pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/ver16m1_3/getsos_ver16.pro"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" path="/ver16m1_3/computemetrics_by1yr.pro"/>
+</editors>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5442" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5512" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5593" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="1625" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="1636" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="2756" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="2870" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="2997" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="3119" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="3235" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="3358" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="4591" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="4765" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="4815" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5073" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5120" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5512" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5957" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="1625" y="0"/>
+</item>
+<item historyLabel="smooth_calculate_metrics_tile_ver9.pro" index="1">
+<position info="not_deleted" x="4337" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="1636" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="2756" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="2870" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="2997" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="1625" y="0"/>
+</item>
+<item historyLabel="geteos_ver16.pro" index="0">
+<position info="not_deleted" x="5593" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="1625" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="1632" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="2784" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="2849" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="3017" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="3253" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="3422" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="3547" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="5297" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="5516" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="5592" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="5853" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="5896" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="6270" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="6864" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="7143" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="7238" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="7289" y="0"/>
+</item>
+<item historyLabel="computemetrics_by1yr.pro" index="3">
+<position info="not_deleted" x="1518" y="0"/>
+</item>
+<item historyLabel="computemetrics_by1yr.pro" index="3">
+<position info="not_deleted" x="1913" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="1625" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="2194" y="0"/>
+</item>
+<item historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="6349" y="0"/>
+</item>
+<item active="true" historyLabel="getsos_ver16.pro" index="2">
+<position info="not_deleted" x="6365" y="0"/>
+</item>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="computemetrics_by1yr.pro" tooltip="ver16m1_3/computemetrics_by1yr.pro">
+<persistable path="/ver16m1_3/computemetrics_by1yr.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="user_metrics_nps_by1yr.pro" tooltip="ver16m1_3/user_metrics_nps_by1yr.pro">
+<persistable path="/ver16m1_3/user_metrics_nps_by1yr.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="cutoff_interp_ver10.pro" tooltip="ver16m1_3/cutoff_interp_ver10.pro">
+<persistable path="/ver16m1_3/cutoff_interp_ver10.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="interpol_noextension_1y_vector_ver9.pro" tooltip="ver16m1_3/interpol_noextension_1y_vector_ver9.pro">
+<persistable path="/ver16m1_3/interpol_noextension_1y_vector_ver9.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="smooth_calculate_metrics_tile_ver9.pro" tooltip="ver16m1_3/smooth_calculate_metrics_tile_ver9.pro">
+<persistable path="/ver16m1_3/smooth_calculate_metrics_tile_ver9.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="geteos_ver16.pro" tooltip="ver16m1_3/geteos_ver16.pro">
+<persistable path="/ver16m1_3/geteos_ver16.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="geteos_ver15.pro" tooltip="ver16m1_3/geteos_ver15.pro">
+<persistable path="/ver16m1_3/geteos_ver15.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="getsos_ver16.pro" tooltip="ver16m1_3/getsos_ver16.pro">
+<persistable path="/ver16m1_3/getsos_ver16.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="getcrossover_percentage_extremeslope_ver15.pro" tooltip="ver16m1_3/getcrossover_percentage_extremeslope_ver15.pro">
+<persistable path="/ver16m1_3/getcrossover_percentage_extremeslope_ver15.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="interpol_line100b.pro" tooltip="ver16m1_3/interpol_line100b.pro">
+<persistable path="/ver16m1_3/interpol_line100b.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="filter_2odd.pro" tooltip="ver16m1_3/filter_2odd.pro">
+<persistable path="/ver16m1_3/filter_2odd.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="smooth_calculate_metrics_tile_ver9.pro" tooltip="ver16m1_2/smooth_calculate_metrics_tile_ver9.pro">
+<persistable path="/ver16m1_2/smooth_calculate_metrics_tile_ver9.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="time_series_process_nps_oneyear_ver9.pro" tooltip="ver16m1_2/time_series_process_nps_oneyear_ver9.pro">
+<persistable path="/ver16m1_2/time_series_process_nps_oneyear_ver9.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="user_metrics_nps_by1yr.pro" tooltip="ver16m1_2/user_metrics_nps_by1yr.pro">
+<persistable path="/ver16m1_2/user_metrics_nps_by1yr.pro"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.rsi.idldt.proeditor.ProEditor" name="getsos_ver16.pro" tooltip="Default/getsos_ver16.pro">
+<persistable path="/Default/getsos_ver16.pro"/>
+</file>
+</mruList>
+</workbench>
