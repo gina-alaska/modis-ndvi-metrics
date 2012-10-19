@@ -31,16 +31,16 @@ FUNCTION ComputeMetrics_by1yr, NDVI, ndvi_raw, bq, bn, wl, bpy, CurrentBand, Day
 ;
 ; Get crossover points (potential starts/ends)
 ;
-Starts=GetCrossOver_percentage_extremeslope_ver15(Time, NDVI, Time, FMA, bq, bpy, /Down)
-Ends=GetCrossOver_percentage_extremeslope_ver15(Time, NDVI, Time, BMA, bq, bpy, /Up)
+Starts = GetCrossOver_percentage_extremeslope(Time, NDVI, Time, FMA, bq, bpy, /Down)
+Ends   = GetCrossOver_percentage_extremeslope(Time, NDVI, Time, BMA, bq, bpy, /Up)
 ;
 ; Determine start/end of season
 ;
 
-SOS=GetSOS_ver16(Starts, NDVI,bq,Time, bpy, FMA)     ;find the possible sos among the crossovers which is the most close to 20% up threshold point, guarentee possib sos > threshold,
+SOS=GetSOS(Starts, NDVI,bq,Time, bpy, FMA)     ;find the possible sos among the crossovers which is the most close to 20% up threshold point, guarentee possib sos > threshold,
                                                      ;and this possible sos must be good point. 
                                                                                          
-EOS=GetEOS_ver16(Ends, NDVI, bq, Time,bpy,SOS,bma) ; find last 20% point, get the possibx which is the nearest to the last 20% point, compare the possibx and the last 20%point,
+EOS=GetEOS(Ends, NDVI, bq, Time,bpy,SOS,bma) ; find last 20% point, get the possibx which is the nearest to the last 20% point, compare the possibx and the last 20%point,
                                                    ; pick the smaller point in the possibx and 20% point as possib point, then gurrantee this point is good point.    
 ; Generate structures for Start/End of season
 

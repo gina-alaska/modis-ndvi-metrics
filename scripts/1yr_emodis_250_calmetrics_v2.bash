@@ -1,6 +1,6 @@
 #!/bin/bash
 #this script calcualte ndvi metrics.
-#input: a threeyear file name
+#input: a one-year file name
 #outputs: a smooth data file, a metrics file
 
 
@@ -34,7 +34,7 @@ echo "________________________"
 echo calculating ndvi-metrics started at `date -u`
 /usr/local/pkg/idl/idl-7.1/idl71/bin/idl<<EOF
 restore,filename='/u1/uaf/jzhu/nps/cesu/modis_ndvi_metrics/sav/codes.sav'
-smooth_calculate_metrics_tile_ver9,'$stacked_file','ver16m1_3'
+smooth_calculate_metrics_tile,'$stacked_file','ver16m1_3'
 exit
 EOF
 

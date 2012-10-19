@@ -1,0 +1,39 @@
+delay-moving-average and threshold combined method:
+
+2008_oneyear_layer_subset_good_metrics_20p2 is produced by the delay-moving-average and threshold combined method algorithm.
+
+I did two improvements in the new algorithm. I improve the
+interpolation in time-series. I improve the method to pick the SOS or
+EOS points among crossover points.
+
+I found for a given time-series, there are always exist some fill
+points which we have to deal with. Some fill points occur right before
+the big jump point which is possible SOS point. At this situation,
+previous time-series interpolation method which interpolates every
+fill point will makes the big jump point movie toward earlier
+direction one or two points. This interpolation makes we detect SOS
+one or two points (7 to 14 days) earlier. So, in my new algorithm, I
+first separate the time-series into three segments. 0 to first 20 % of
+maximum ndvi point, first 20% of maximum ndvi point to last 20% of
+maximum ndvi point, and last 20% of maximum ndvi point to last point.
+for the first and the third segments, we do not interpolate fill
+points but change negative points into randomly 100 to 101, we
+interpolate fill points and then change negative points into randomly
+101 or 101 for the middle segment.
+
+Even we interpolate the time-series, we can not guarantee the
+time-series do not have odd points (one or two very low value points
+between two reasonable points). If the odd points exist in the middle
+of growing season, the "pure" Brad's algorithm will wrongly catch the
+odd point as SOS or EOS. In order to overcome the weakness, I use
+first 20 % of maximum point as reference point, we pick the crossover
+point which is the most closed to the reference point as possible SOS
+point, if the crossover point stands before the first 20% of maximum point,
+then the 20% of maximum point is assumed as possible SOS point, 
+otherwise, the crossover point is assumed as possible SOS point. 
+Next, we pick the first "good" point from the possible sos point to
+maximum ndvi point as SOS point.  In the similar way, we look for the
+most closed to the last 20% of maximum ndvi point as possible EOS
+point, then we pick the last "good" point from maximum navi point to
+the possible EOS as EOS point.
+

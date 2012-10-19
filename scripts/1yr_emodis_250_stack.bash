@@ -32,7 +32,7 @@ lr_lat=$6
 cd $idlprg_dir
 
 /usr/local/pkg/idl/idl-7.1/idl71/bin/idl <<EOF
-oneyear_data_layer_subset_good_ver9, '$flist_ndvi','$flist_bq','$ul_lon','$ul_lat', '$lr_lon','$lr_lat'
+oneyear_data_layer_subset_good, '$flist_ndvi','$flist_bq','$ul_lon','$ul_lat', '$lr_lon','$lr_lat'
 exit
 EOF
 

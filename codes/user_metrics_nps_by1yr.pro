@@ -34,17 +34,9 @@ sfactor=0.01
 a=-100.0
 threshold_val=0.1; better way is use half of maximun of ndvi, ndvi value, determines the sos and eos points
 
-;assume normally greenness duration is 20*7 days=140 days
-
-;ver10
-;num_band=(size(ndvi))(1)
-;wl=[num_band-20,num_band-20]
-
-;ver11, wl=[18,18], uses maximun slope to determie sos, uses extension
-
-;wl=[35,35], approved by Mike
-
-wl=[30,30]
+;assume normally greenness duration in Alaska is 12*7 days=84 days
+num_band=(size(ndvi))(1)
+wl=[num_band-12,num_band-12]
 
 ;wl=[30,30] ;decided by Reed, B.C.Measure phenological variability from satellite imagery,1994, 703, J. vegetation Science 5
            ;jzhu, wl impacts the SOS and EOS, normally, sos is 102 days, eos is 280 days, days of noe green =102+ (365-280)=187
@@ -54,7 +46,6 @@ wl=[30,30]
 ;jzhu, 8/29, 2011, call determine_wl.pro to estimate wl for each ndvi
 ;wl=determine_wl(ndvi, threshold_val)
 
-           
 bpy =(size(ndvi))(1)  ; num of band in one year, 42
 CurrentBand=7
 DaysPerBand=7  ; day interval between two consecituve bands =7 days
