@@ -4,6 +4,8 @@
 
 year=$1
 
+source ./1yr_emodis_250_env.bash
+
 org=$rawdata_dir
 
 #org=/projects/UAFGINA/project_data/emodis/distribution/Alaska/historical/TERRA

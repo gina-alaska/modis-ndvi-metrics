@@ -12,7 +12,7 @@
 
 #check if input parameters are correct
 
-#source ./1yr_emodis_250_env.bash
+source ./1yr_emodis_250_env.bash
 
 if [ $# != 6 ];then
 echo
@@ -29,11 +29,13 @@ lr_lon=$5
 lr_lat=$6
 
 
-#cd $idlprg_dir
+#/usr/local/pkg/idl/idl-7.1/idl71/bin/idl <<EOF
+#idl<<EOF
+#/usr/local/pkg/idl/idl-8.2/idl/bin/idl<<EOF
 
-/usr/local/pkg/idl/idl-7.1/idl71/bin/idl <<EOF
-restore,filename='/import/home/u1/uaf/jzhu/nps/cesu/modis_ndvi_250m/sav/ndvi-metrics-ver17.sav'
-oneyear_data_layer_subset_good_ver9, '$flist_ndvi','$flist_bq','$ul_lon','$ul_lat', '$lr_lon','$lr_lat'
+$idl_dir/idl<<EOF
+restore,filename='/u1/uaf/jzhu/nps/cesu/modis_ndvi_metrics/sav/codes.sav'
+oneyear_data_layer_subset_good, '$flist_ndvi','$flist_bq','$ul_lon','$ul_lat', '$lr_lon','$lr_lat'
 exit
 EOF
 

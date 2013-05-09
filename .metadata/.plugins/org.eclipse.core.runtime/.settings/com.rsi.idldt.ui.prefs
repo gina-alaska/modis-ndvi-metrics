@@ -1,4 +1,5 @@
-#Thu Sep 06 09:59:20 AKDT 2012
+#Wed May 08 10:42:28 AKDT 2013
+coolItemsOrder=org.eclipse.ui.workbench.file\:com.rsi.idldt.ui.textedit.toolbar\:com.rsi.idldt.ui.toolbar.debugTools\:
 IDL_DEVICE=X
 IDL_VALUES=true
 CHROMACODING_VALUES=true

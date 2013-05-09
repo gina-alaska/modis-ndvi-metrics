@@ -32,7 +32,8 @@ echo "________________________"
 #send start time
 
 echo calculating ndvi-metrics started at `date -u`
-/usr/local/pkg/idl/idl-7.1/idl71/bin/idl<<EOF
+#/usr/local/pkg/idl/idl-7.1/idl71/bin/idl<<EOF
+$idl_dir/idl<<EOF
 restore,filename='/u1/uaf/jzhu/nps/cesu/modis_ndvi_metrics/sav/codes.sav'
 smooth_calculate_metrics_tile,'$stacked_file','ver16m1_3'
 exit

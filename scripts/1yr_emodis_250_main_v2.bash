@@ -38,7 +38,7 @@ echo $0 started at `date -u`
 
 echo copy raw data to $work_dir/$year started at `date -u`
 
-$script_dir/1yr_emodis_250_copy.bash $year
+#$script_dir/1yr_emodis_250_copy.bash $year
 
 
 #2.get the flist names for ndvi and bq 
