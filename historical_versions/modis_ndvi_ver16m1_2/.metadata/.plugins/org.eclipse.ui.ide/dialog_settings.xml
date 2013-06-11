@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<section name="Workbench">
-	<section name="NewIdlProjectWizard">
-		<section name="NewIdlProjectWizardPage">
-			<item key="add_to_path" value="true"/>
-		</section>
-	</section>
-</section>
